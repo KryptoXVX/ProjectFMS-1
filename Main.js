@@ -13,6 +13,7 @@ function setup() {
 function draw() {
     background(255, 255, 255)
 
+    stroke(0, 0, 255)
     strokeWeight(25)
     fill(64, 64, 255)
     ellipse(x, y, 100, 100)
@@ -25,15 +26,16 @@ function draw() {
         y = 128
     }
 
+    stroke(255, 64, 49)
     strokeWeight(5)
     fill(25, 69, 25)
     rect(25, 25, 50, 50)
 
+    stroke(23, 64, 43)
     strokeWeight(10)
     fill(65, 0, 0)
     rect(a, b, 70, 70, 15)
     a*=1.05;
-
     if (a > 480) {
         a = 25;
     }
