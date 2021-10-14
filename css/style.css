@@ -1,0 +1,42 @@
+body {
+    background-color: #1E1E1E;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body > h1 {
+    color: green;
+    border: 10px,green;
+    border-style: solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+}
+
+.modules {
+    width: 10em;
+    color: green;
+    border: 10px,green;
+    border-style: solid;
+    border-radius: 15px;
+    display: flexbox;
+}
+
+.modules p a {
+    color: green;
+    display: flex;
+    flex-direction: column;
+    text-indent: 5%;
+}
+
+.rickroll {
+    display: flex;
+    margin-left: 8%;
+    margin-right: auto;
+}
